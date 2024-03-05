@@ -1,0 +1,15 @@
+{
+  "name": "vuePress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": "git@github.com:fallenaAngel/vuePress.git",
+  "author": "lidingding <1940864969@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
