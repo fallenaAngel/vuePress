@@ -7,11 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@main
+    - name: Build and Deploy
+      uses: fallenaAngel/vuePress@main
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: fallenaAngel/vuePress
-        TARGET_BRANCH: main
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist/
