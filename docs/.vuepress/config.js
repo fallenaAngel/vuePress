@@ -30,6 +30,10 @@ module.exports = {
             link: '/dailyNotes/toolWebsite'
           },
           {
+            text: '面试',
+            link: '/dailyNotes/InterviewTheory'
+          },
+          {
             text: '生活',
             link: '/dailyNotes/lifeTips'
           }
