@@ -24,10 +24,20 @@ module.exports = {
           {
             text: 'TS',
             link: '/dailyNotes/ts/'
+          },
+          {
+            text: '工具网站合集',
+            link: '/dailyNotes/toolWebsite'
+          },
+          {
+            text: '生活',
+            link: '/dailyNotes/lifeTips'
           }
         ]
       },
-      { text: '算法题库', link: '/algorithm/' }
+      { text: '算法', link: '/algorithm/' },
+      { text: '我的CSDN', link: 'https://blog.csdn.net/weixin_43869192' },
+      { text: 'GitHub', link: 'https://github.com/fallenaAngel' }
     ],
     sidebar: 'auto',
     sidebarDepth: 2, // 侧边栏显示2级
