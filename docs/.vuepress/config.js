@@ -27,8 +27,7 @@ module.exports = {
           }
         ]
       },
-      { text: '算法题库', link: '/algorithm/' },
-      { text: '微博', link: 'https://baidu.com' }
+      { text: '算法题库', link: '/algorithm/' }
     ],
     sidebar: 'auto',
     sidebarDepth: 2, // 侧边栏显示2级
