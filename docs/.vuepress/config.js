@@ -36,9 +36,14 @@ module.exports = {
           {
             text: '生活',
             link: '/dailyNotes/lifeTips'
-          }
+          },
+          // {
+          //   text: 'Vue原理解析',
+          //   link: '/dailyNotes/lifeTips'
+          // }
         ]
       },
+      // { text: 'React', link: '/reactNotes/' },
       { text: '算法', link: '/algorithm/' },
       { text: '我的CSDN', link: 'https://blog.csdn.net/weixin_43869192' },
       { text: 'GitHub', link: 'https://github.com/fallenaAngel' }
